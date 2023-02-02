@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.connectWallet {
+
+  background: blue;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 250px;
+  cursor: pointer;
+  color: white;
+}
+
+.connectWallet:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.approveBtn {
+
+  background: orange;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+
+.approveBtn:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.sendUsdcBtn {
+
+  background: rgb(26, 212, 26);
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+.sendUsdcBtn:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
