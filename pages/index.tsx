@@ -23,7 +23,7 @@ type GroupBuys = {
 };
 
 export default function Home() {
-  const originalUsdcContract = "0x07865c6E87B9F70255377e024ace6630C1Eaa37F"; //usdc token contract address
+  const originalUsdcContract = "0x5425890298aed601595a70AB815c96711a31Bc65"; //usdc token contract address
   const groupBuyManagerContract =
     "Replace with your group buy manager smart contract address here";
 
@@ -395,7 +395,7 @@ export default function Home() {
               </p>
               <p className={styles.hyperlinkText}>
                 <Link
-                  href={`https://goerli.etherscan.io/address/${groupBuy.groupBuyAddress}`}
+                  href={`https://testnet.snowtrace.io/address/${groupBuy.groupBuyAddress}`}
                   target="_blank"
                 >
                   {groupBuy.groupBuyAddress}
