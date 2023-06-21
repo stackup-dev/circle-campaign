@@ -13,7 +13,7 @@ import abi from "../utils/fundUSDC.json";
 import usdcAbi from "../utils/usdcContract.json";
 
 export default function Home() {
-  const originalUsdcContract = "0x07865c6E87B9F70255377e024ace6630C1Eaa37F";
+  const originalUsdcContract = "0x5425890298aed601595a70ab815c96711a31bc65";
 
   const usdcDemoContract = "REPLACE WITH YOUR SMART CONTRACT ADDRESS"; //replace with the contract address you created
 
